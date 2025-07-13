@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#stop-watch {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 320px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+  background-color: #f9f9f9;
+}
+
+#result {
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
+
+#switch {
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: white;
+}
+
+button:hover {
+  box-shadow: 2px 2px 15px rgba(9, 23, 218, 0.9);
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#start-button {
+  background-color: rgb(11, 161, 63);
+}
+
+#stop-button {
+  background-color: rgb(195, 40, 40);
+}
+
+#reset-button {
+  background-color: rgb(4, 74, 194);
+}
+
+#lap-button {
+  background-color: rgb(142, 99, 202);
+}
+
+#laps {
+  list-style: none;
+  padding: 10px 0 0;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+#laps li {
+  border-bottom: 1px solid #ccc;
+  padding: 4px 0;
+  text-align: center;
+}
