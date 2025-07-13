@@ -1,2 +1,10 @@
-# PRODIGY_WD_02
-A simple and responsive JavaScript stopwatch with Start, Stop, Reset, and lap functionality. Built using HTML, CSS, and JavaScript.
+# ⏱ Simple Stopwatch with Lap Function
+
+This is a basic stopwatch web app built using *HTML, **CSS, and **JavaScript*.  
+It includes the following features:
+
+- Start the timer
+- Stop the timer
+- Reset the timer
+- Record lap times
+
